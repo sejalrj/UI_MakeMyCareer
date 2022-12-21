@@ -3,6 +3,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="module" src="recruiter_homepage.js"></script>
+
+
+
 </head>
 <body>
 
@@ -20,7 +28,8 @@
           </div>
       </div>
       <div>
-        <button type="submit" style="margin:100px;;">Create a new job role</button>
+        <!-- <button type="submit" onclick='CreateJobRole()' style="margin:100px;;">Create a new job role</button> -->
+        <button type="submit"><a href="post_job.html">Create a new job role</a></button>
       </div>
   </div>
   <div class="column2" style="background-color:#bbb;">
@@ -35,6 +44,7 @@
     <div style="background-color:#aaa; height:50%;">
     <div style="background-color:grey;">
     <h3 style="text-align: center;">Candidate Applied</h3>
+    <a href="recruiter_candidate.html"><h4>John Doe</h4></a> 
     </div>
   </div>
     
@@ -45,6 +55,10 @@
   </div>
   </div>
 </div>
+
+
+
+
 
 </body>
 </html>
